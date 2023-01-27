@@ -1,0 +1,11 @@
+@keyframes example {
+    from {left: 0%; color: yellow; font-size: 12px;}
+    to {left: 98%; color: blue; font-size: 40px;}
+}
+
+p {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation: example 5s forwards 1s alternate 4;
+  }
